@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Persona_PercentageShipping
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <percentageshipping>
+                <active>0</active>
+                <title>Percentage Shipping</title>
+                <name>Percentage Shipping</name>
+                <shipping_percentage>7</shipping_percentage>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <model>Persona\PercentageShipping\Model\Carrier\PercentageShipping</model>
+            </percentageshipping>
+        </carriers>
+    </default>
+</config>
